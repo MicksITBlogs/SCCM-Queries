@@ -1,0 +1,1 @@
+select distinct SMS_R_System.Name, SMS_G_System_LOCAL_ADMINISTRATORS.Domain, SMS_G_System_LOCAL_ADMINISTRATORS.User from  SMS_R_System inner join SMS_G_System_LOCAL_ADMINISTRATORS on SMS_G_System_LOCAL_ADMINISTRATORS.ResourceID = SMS_R_System.ResourceId order by SMS_R_System.Name, SMS_G_System_LOCAL_ADMINISTRATORS.Domain, SMS_G_System_LOCAL_ADMINISTRATORS.User
